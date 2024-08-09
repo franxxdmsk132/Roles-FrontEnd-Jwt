@@ -1,0 +1,13 @@
+/* Archivo styles.css o el CSS del componente */
+
+.text-success {
+  color: green;
+}
+
+.text-danger {
+  color: red;
+}
+
+.font-italic {
+  font-style: italic;
+}

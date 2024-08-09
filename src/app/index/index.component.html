@@ -1,0 +1,12 @@
+<app-menu></app-menu>
+<div class="container text-center">
+  <div *ngIf="isLogged; else loggedOut">
+    <h2>Bienvenido {{nombreUsuario}}</h2>
+  </div>
+  <ng-template #loggedOut>
+    <h2>No has iniciado sesión</h2>
+    <button class="btn btn-primary mt-3" routerLink="/login">
+      Ingresar o Registrarse
+    </button>
+  </ng-template>
+</div>
